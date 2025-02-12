@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title text-primary">Diagnosis Results</h2>
+            
+            <div class="mt-4">
+                <h4>Symptoms Analyzed:</h4>
+                <ul>
+                    {% for symptom in symptoms %}
+                    <li>{{ symptom }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h4>Predicted Condition:</h4>
+                <p class="h5 text-danger">{{ disease }}</p>
+                <p>Confidence: {{ confidence }}</p>
+            </div>
+
+            {% if description %}
+            <div class="mt-4">
+                <h4>Description:</h4>
+                <p>{{ description }}</p>
+            </div>
+            {% endif %}
+
+            {% if precautions %}
+            <div class="mt-4">
+                <h4>Precautions:</h4>
+                <ul>
+                    {% for precaution in precautions %}
+                    <li>{{ precaution }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if medications %}
+            <div class="mt-4">
+                <h4>Recommended Medications:</h4>
+                <ul>
+                    {% for medication in medications %}
+                    <li>{{ medication }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if diet %}
+            <div class="mt-4">
+                <h4>Dietary Recommendations:</h4>
+                <ul>
+                    {% for item in diet %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if workout %}
+            <div class="mt-4">
+                <h4>Exercise Recommendations:</h4>
+                <p>{{ workout }}</p>
+            </div>
+            {% endif %}
+
+            <div class="mt-4">
+                <a href="{{ url_for('index') }}" class="btn btn-primary">Check Another Condition</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

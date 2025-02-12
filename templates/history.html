@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4" style="color: #00f2fe;">Consultation History</h2>
+
+    {% if error %}
+    <div class="alert alert-danger">
+        {{ error }}
+    </div>
+    {% endif %}
+
+    <div class="card">
+        <div class="card-body">
+            {% if diagnoses %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Symptoms</th>
+                                <th>Diagnosis</th>
+                                <th>Confidence</th>
+                                <th>ML Prediction</th>
+                                <th>LLM Prediction</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for diagnosis in diagnoses %}
+                            <tr>
+                                <td>{{ diagnosis.date_created.strftime('%Y-%m-%d %H:%M') }}</td>
+                                <td>
+                                    {% for symptom in diagnosis.symptoms.split(',') %}
+                                    <span class="symptom-badge">{{ symptom }}</span>
+                                    {% endfor %}
+                                </td>
+                                <td>{{ diagnosis.predicted_disease }}</td>
+                                <td>{{ diagnosis.confidence_level }}</td>
+                                <td>{{ diagnosis.ml_prediction }}</td>
+                                <td>{{ diagnosis.llm_prediction }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <button class="btn btn-danger mt-3" onclick="clearHistory()">Clear History</button>
+            {% else %}
+                <p class="text-center text-muted">No consultation history available. (Total entries: {{ diagnoses|length }})</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-image: url("{{ url_for('static', filename='DALL·E 2025-02-05 15.51.33 - A futuristic AI-powered medical interface with a digital healthcare assistant on the homepage. The background features a glowing blue and green gradie.webp') }}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        padding-top: 80px;
+    }
+
+    .card {
+        background: rgba(0, 21, 41, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+
+    .table {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .table thead th {
+        border-bottom: 2px solid rgba(0, 242, 254, 0.2);
+        color: #00f2fe;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .table td {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        vertical-align: middle;
+        color: #ffffff;
+        font-size: 0.95rem;
+    }
+
+    .symptom-badge {
+        background: rgba(0, 242, 254, 0.3);
+        border: 1px solid rgba(0, 242, 254, 0.6);
+        color: #00f2fe;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        margin: 3px;
+        display: inline-block;
+        font-weight: 500;
+        text-shadow: none;
+        transition: all 0.2s ease;
+    }
+
+    .symptom-badge:hover {
+        background: rgba(0, 242, 254, 0.4);
+        transform: translateY(-1px);
+    }
+
+    .btn-danger {
+        background: rgba(220, 53, 69, 0.2);
+        border: 1px solid rgba(220, 53, 69, 0.4);
+        color: #dc3545;
+        transition: all 0.3s ease;
+    }
+
+    .btn-danger:hover {
+        background: rgba(220, 53, 69, 0.4);
+        border: 1px solid rgba(220, 53, 69, 0.6);
+        color: white;
+    }
+
+    .table-hover tbody tr:hover {
+        background: rgba(0, 242, 254, 0.15);
+    }
+
+    .table-responsive {
+        max-height: 600px;
+        overflow-y: auto;
+    }
+
+    /* Custom scrollbar */
+    .table-responsive::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .table-responsive::-webkit-scrollbar-track {
+        background: rgba(0, 21, 41, 0.8);
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb {
+        background: rgba(0, 242, 254, 0.4);
+        border-radius: 4px;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 242, 254, 0.6);
+    }
+
+    /* Add styles for specific columns */
+    .table td:nth-child(3), /* Diagnosis column */
+    .table td:nth-child(5), /* ML Prediction column */
+    .table td:nth-child(6)  /* LLM Prediction column */ {
+        color: #00f2fe;  /* Make predictions stand out */
+        font-weight: 500;
+    }
+
+    .table td:nth-child(4) /* Confidence column */ {
+        color: #4facfe;  /* Different color for confidence */
+        font-weight: 500;
+    }
+
+    /* Update text-muted color */
+    .text-muted {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    /* Add a subtle text shadow for better readability */
+    .table th,
+    .table td {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<script>
+function clearHistory() {
+    if (confirm('Are you sure you want to clear all consultation history?')) {
+        fetch('/reset', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.message) {
+                window.location.reload();
+            } else {
+                alert('Error clearing history: ' + data.error);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error clearing history. Please try again.');
+        });
+    }
+}
+</script>
+{% endblock %} 

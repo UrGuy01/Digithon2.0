@@ -1,0 +1,110 @@
+Date,Disease,Disease_Count,Medicine_1,Medicine_1_Sales,Medicine_2,Medicine_2_Sales,Trend_Type,Insight
+2024-01-01,Influenza,15,Oseltamivir,80,Paracetamol,79,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-02,Influenza,8,Oseltamivir,77,Paracetamol,75,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-03,Influenza,20,Oseltamivir,75,Paracetamol,72,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-04,Influenza,20,Oseltamivir,73,Paracetamol,73,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-05,Influenza,20,Oseltamivir,71,Paracetamol,69,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-06,Influenza,24,Oseltamivir,69,Paracetamol,69,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-07,Influenza,33,Oseltamivir,67,Paracetamol,69,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-08,Influenza,29,Oseltamivir,65,Paracetamol,63,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-09,Influenza,27,Oseltamivir,63,Paracetamol,62,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-10,Influenza,35,Oseltamivir,61,Paracetamol,56,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-11,Influenza,38,Oseltamivir,59,Paracetamol,62,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-12,Influenza,37,Oseltamivir,57,Paracetamol,57,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-13,Influenza,43,Oseltamivir,55,Paracetamol,54,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-14,Influenza,45,Oseltamivir,53,Paracetamol,51,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-15,Influenza,57,Oseltamivir,51,Paracetamol,53,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-16,Influenza,48,Oseltamivir,48,Paracetamol,47,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-17,Influenza,56,Oseltamivir,46,Paracetamol,47,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-18,Influenza,58,Oseltamivir,44,Paracetamol,42,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-19,Influenza,58,Oseltamivir,42,Paracetamol,40,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-20,Influenza,64,Oseltamivir,40,Paracetamol,38,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-21,Influenza,66,Oseltamivir,38,Paracetamol,42,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-22,Influenza,63,Oseltamivir,36,Paracetamol,33,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-23,Influenza,69,Oseltamivir,34,Paracetamol,32,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-24,Influenza,75,Oseltamivir,32,Paracetamol,31,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-25,Influenza,78,Oseltamivir,30,Paracetamol,30,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-26,Influenza,78,Oseltamivir,28,Paracetamol,29,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-27,Influenza,84,Oseltamivir,26,Paracetamol,27,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-28,Influenza,87,Oseltamivir,24,Paracetamol,22,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-29,Influenza,83,Oseltamivir,22,Paracetamol,23,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-30,Influenza,87,Oseltamivir,20,Paracetamol,20,up_down,Spike in Influenza cases but declining medication usage suggests possible new treatment patterns or virus variants.
+2024-01-01,COVID-19,88,Remdesivir,20,Dexamethasone,21,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-02,COVID-19,92,Remdesivir,22,Dexamethasone,22,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-03,COVID-19,86,Remdesivir,24,Dexamethasone,26,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-04,COVID-19,83,Remdesivir,26,Dexamethasone,28,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-05,COVID-19,82,Remdesivir,28,Dexamethasone,33,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-06,COVID-19,78,Remdesivir,31,Dexamethasone,35,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-07,COVID-19,71,Remdesivir,33,Dexamethasone,36,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-08,COVID-19,74,Remdesivir,35,Dexamethasone,34,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-09,COVID-19,72,Remdesivir,37,Dexamethasone,34,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-10,COVID-19,62,Remdesivir,40,Dexamethasone,39,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-11,COVID-19,65,Remdesivir,42,Dexamethasone,43,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-12,COVID-19,59,Remdesivir,44,Dexamethasone,45,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-13,COVID-19,60,Remdesivir,46,Dexamethasone,43,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-14,COVID-19,58,Remdesivir,49,Dexamethasone,50,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-15,COVID-19,59,Remdesivir,51,Dexamethasone,51,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-16,COVID-19,52,Remdesivir,53,Dexamethasone,52,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-17,COVID-19,54,Remdesivir,55,Dexamethasone,54,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-18,COVID-19,46,Remdesivir,58,Dexamethasone,54,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-19,COVID-19,44,Remdesivir,60,Dexamethasone,58,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-20,COVID-19,40,Remdesivir,62,Dexamethasone,59,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-21,COVID-19,40,Remdesivir,64,Dexamethasone,64,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-22,COVID-19,39,Remdesivir,67,Dexamethasone,66,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-23,COVID-19,36,Remdesivir,69,Dexamethasone,71,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-24,COVID-19,33,Remdesivir,71,Dexamethasone,72,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-25,COVID-19,34,Remdesivir,73,Dexamethasone,73,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-26,COVID-19,27,Remdesivir,76,Dexamethasone,73,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-27,COVID-19,26,Remdesivir,78,Dexamethasone,80,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-28,COVID-19,24,Remdesivir,80,Dexamethasone,79,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-29,COVID-19,22,Remdesivir,82,Dexamethasone,84,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-30,COVID-19,19,Remdesivir,85,Dexamethasone,78,down_up,Decreasing COVID-19 cases with increasing medication sales might indicate preventive usage or stockpiling.
+2024-01-01,Dengue,16,Acetaminophen,10,Electrolyte Solutions,12,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-02,Dengue,20,Acetaminophen,14,Electrolyte Solutions,13,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-03,Dengue,23,Acetaminophen,18,Electrolyte Solutions,18,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-04,Dengue,29,Acetaminophen,22,Electrolyte Solutions,20,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-05,Dengue,33,Acetaminophen,26,Electrolyte Solutions,25,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-06,Dengue,39,Acetaminophen,30,Electrolyte Solutions,30,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-07,Dengue,34,Acetaminophen,34,Electrolyte Solutions,34,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-08,Dengue,42,Acetaminophen,38,Electrolyte Solutions,34,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-09,Dengue,44,Acetaminophen,42,Electrolyte Solutions,39,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-10,Dengue,48,Acetaminophen,46,Electrolyte Solutions,46,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-11,Dengue,58,Acetaminophen,50,Electrolyte Solutions,50,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-12,Dengue,59,Acetaminophen,54,Electrolyte Solutions,49,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-13,Dengue,57,Acetaminophen,58,Electrolyte Solutions,61,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-14,Dengue,65,Acetaminophen,62,Electrolyte Solutions,62,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-15,Dengue,69,Acetaminophen,66,Electrolyte Solutions,64,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-16,Dengue,74,Acetaminophen,70,Electrolyte Solutions,71,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-17,Dengue,79,Acetaminophen,74,Electrolyte Solutions,73,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-18,Dengue,78,Acetaminophen,78,Electrolyte Solutions,78,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-19,Dengue,87,Acetaminophen,82,Electrolyte Solutions,86,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-20,Dengue,88,Acetaminophen,86,Electrolyte Solutions,83,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-21,Dengue,96,Acetaminophen,90,Electrolyte Solutions,90,up_up,Parallel increase in Dengue cases and medication usage indicates active outbreak response.
+2024-01-01,Malaria,85,Chloroquine,90,Artemisinin,88,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-02,Malaria,88,Chloroquine,87,Artemisinin,83,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-03,Malaria,76,Chloroquine,84,Artemisinin,88,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-04,Malaria,79,Chloroquine,82,Artemisinin,83,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-05,Malaria,73,Chloroquine,79,Artemisinin,77,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-06,Malaria,72,Chloroquine,77,Artemisinin,77,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-07,Malaria,71,Chloroquine,74,Artemisinin,76,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-08,Malaria,69,Chloroquine,71,Artemisinin,68,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-09,Malaria,59,Chloroquine,69,Artemisinin,66,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-10,Malaria,59,Chloroquine,66,Artemisinin,65,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-11,Malaria,61,Chloroquine,64,Artemisinin,64,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-12,Malaria,58,Chloroquine,61,Artemisinin,63,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-13,Malaria,60,Chloroquine,58,Artemisinin,60,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-14,Malaria,47,Chloroquine,56,Artemisinin,63,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-15,Malaria,49,Chloroquine,53,Artemisinin,54,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-16,Malaria,42,Chloroquine,51,Artemisinin,49,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-17,Malaria,42,Chloroquine,48,Artemisinin,52,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-18,Malaria,39,Chloroquine,45,Artemisinin,46,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-19,Malaria,39,Chloroquine,43,Artemisinin,42,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-20,Malaria,33,Chloroquine,40,Artemisinin,39,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-21,Malaria,36,Chloroquine,38,Artemisinin,36,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-22,Malaria,24,Chloroquine,35,Artemisinin,38,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-23,Malaria,28,Chloroquine,32,Artemisinin,31,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-24,Malaria,29,Chloroquine,30,Artemisinin,33,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-25,Malaria,25,Chloroquine,27,Artemisinin,28,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-26,Malaria,18,Chloroquine,25,Artemisinin,22,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-27,Malaria,13,Chloroquine,22,Artemisinin,22,down_down,Declining Malaria cases and medication usage suggests successful disease control.
+2024-01-28,Malaria,10,Chloroquine,20,Artemisinin,21,down_down,Declining Malaria cases and medication usage suggests successful disease control.
